@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.training.droidbountyhunter.Home">
+    <item android:id="@+id/item_eliminar"
+        android:icon="@drawable/ic_delete"
+        android:title="eliminar"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/item_capturar"
+        android:icon="@drawable/ic_capture"
+        android:title="capturar"
+        app:showAsAction="always" />
+    <item android:id="@+id/item_tomarFoto"
+        android:icon="@drawable/ic_photo"
+        android:title="tomarFoto"
+        app:showAsAction="always" />
+    <item android:id="@+id/item_MostrarMapa"
+        android:icon="@drawable/ic_map"
+        android:title="mostrarEnMapa"
+        app:showAsAction="always" />
+</menu>
